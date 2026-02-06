@@ -11,7 +11,7 @@ RUN mvn clean package
 
 
 # -------- Package Stage --------
-FROM eclipse-temurin:11-jre-alpine
+FROM eclipse-temurin:11-jre
 
 WORKDIR /usr/local/lib
 
